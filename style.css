@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 7px solid black;
+    padding: 20px;
+   justify-content: center;
+   text-align: center;
+   width: max-content;
+   margin: auto;
+    color: white;
+    background-color: black;
+}
+.controls{
+    display: grid;
+    grid-template-rows: repeat(5,50px);
+    grid-template-columns: repeat(4,50px);
+    gap: 10px;
+}
+.screen{
+    width: 195px;
+}
+.display{
+    border: 2px solid white;
+    border-style:double;
+    width: 220px;
+    height: 60px;
+    text-align: right;
+    font-weight: bold;
+    font-size: larger;
+   background-color: transparent;
+   color: wheat;
+   
+}
+button{
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+button:hover{
+    background-color:rgb(65, 62, 62);
+}
+ #oper{
+   background-color: yellowgreen;
+  
+}
+#oper:hover{
+    background-color: rgb(97, 136, 20);
+}
+#equal{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
